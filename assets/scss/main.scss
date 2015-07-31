@@ -1,1 +1,52 @@
 @import "partials/imports";
+@import "partials/nav";
+@import "partials/footer";
+@import "partials/cover";
+@import "partials/quotes";
+
+body {
+  background-color: #ffffff;
+  color: #686868 !important;
+  font-size: 16px !important;
+  line-height: 24px  !important;
+  margin: 0;
+}
+
+.banner {
+  background-color: #d81e05 !important;
+}
+
+// 4x1 Photo Row
+.et_pb_blurb_content {
+  img {
+    @extend %thumbnail-style;
+  }
+
+  .et_pb_blurb_container {
+    h4 {
+      color: #333333 !important;
+      font-size: 1.125em;
+      font-weight: 600;
+      line-height: 1em;
+      margin: 1.25em 0 .75em 0;
+    }
+  }
+}
+
+.et_pb_section.photos {}
+
+#quote {
+  padding: 0 !important;
+
+  .row {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@import "modules/styles";
+@import "modules/buttons";
+
+@import "pages/home";
+@import "pages/products_pricing";
