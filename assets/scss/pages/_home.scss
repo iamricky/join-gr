@@ -1,0 +1,73 @@
+.home {
+  .top_originators_area {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-bottom: #d81e05 5px solid;
+    padding-bottom: 30px;
+
+    h2 {
+      margin-top: 0.75em;
+      letter-spacing: -0.05em;
+      color: #222222;
+      line-height: 1em;
+    }
+
+    p {
+      color: #999999;
+      margin-top: 1.5em;
+    }
+  }
+
+  .shadow_bottom_center {
+    position: relative;
+
+    &:before {
+      height: 20px !important;
+      width: 20px;
+      display: block;
+      position: absolute;
+      content: ' ';
+      left: 50%;
+      margin-left: -50%;
+      overflow: hidden;
+      opacity: 0.75;
+      top: 100%;
+      width: 100%;
+      z-index: 99;
+      background: transparent -moz-radial-gradient(center, ellipse cover, #000000 -100%, transparent 60%) no-repeat 0px -10px;
+      background: transparent -webkit-gradient(radial, center center, 0px, center center, 80%, color-stop(-100%, #000000), color-stop(60%, transparent)) no-repeat 0px -10px;
+      background: transparent -webkit-radial-gradient(center, ellipse cover, #000000 -100%, transparent 60%) no-repeat 0px -10px;
+      background: transparent -o-radial-gradient(center, ellipse cover, #000000 -100%, transparent 60%) no-repeat 0px -10px;
+      background: transparent -ms-radial-gradient(center, ellipse cover, #000000 -100%, transparent 60%) no-repeat 0px -10px;
+      background: transparent radial-gradient(ellipse at center, #000000 -100%, transparent 60%) no-repeat 0px -10px;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00ffffff', GradientType=1);
+    }
+  }
+
+  .et_pb_section {
+    &.photos {
+      background: {
+        color: #ebebeb;
+        image: url("../img/home-pagelinks-bg.jpg");
+        repeat: no-repeat;
+        position: top center;
+      };
+      padding: 4em 0;
+    }
+
+    &.founded_by_area {
+      .et_pb_column {
+        h2 {
+          font: {
+            size: 2.625em !important;
+            weight: 300 !important;
+          };
+          line-height: 1.1428571428571428em !important;
+        }
+      }
+    }
+  }
+}

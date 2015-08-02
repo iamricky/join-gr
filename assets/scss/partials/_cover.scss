@@ -1,0 +1,42 @@
+.cover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #ffffff !important;
+  height: 400px;
+
+  margin: {
+    bottom: 0;
+  };
+
+  padding: {
+    top: 5em;
+  };
+  position: relative;
+  text-align: center;
+
+  h1 {
+    color: #ffffff !important;
+    margin-top: 1.2em;
+    font-size: 2.625em;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .front-page h1 {
+    font-size: 4.144375em;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .et_pb_fullwidth_header_subhead {
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto;
+    text-align: center;
+    width: 65.81196581196582%;
+  }
+}
