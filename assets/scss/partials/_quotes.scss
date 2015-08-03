@@ -1,0 +1,198 @@
+.quote {
+  border: {
+    bottom: #d81e05 4px solid;
+  };
+  // box-shadow: 0px 0px 10px 2px #999999;
+  // -webkit-box-shadow: 0px 0px 10px 2px #999999;
+  // -moz-box-shadow: 0px 0px 10px 2px #999999;
+
+  &.agent_michelle {
+    background: #f8fdfd url("../img/quotes/michelle.png") no-repeat 100% 0;
+    height: 312px;
+    padding-top: 3em;
+  }
+
+  &.agent_allyson {
+    min-height: 636px;
+    padding-top: 4.5em;
+
+    background: {
+      color: transparent;
+      image: url("../img/quotes/allyson.jpg");
+      position: right bottom;
+      repeat: no-repeat;
+      size: contain;
+    };
+
+    .et_pb_column {
+      width: 50% !important;
+    }
+  }
+
+  &.agent_ben {
+    background: url("../img/quotes/ben.jpg") no-repeat right top;
+    min-height: 636px;
+
+    .et_pb_column {
+      width: 50% !important;
+    }
+  }
+
+  &.agent_dean {
+    background: {
+      color: transparent;
+      image: url("../img/quotes/dean.jpg");
+      position: bottom left;
+      repeat: no-repeat;
+      size: contain;
+    };
+    border: none;
+  }
+
+  &.agent_julia {
+    background: {
+      color: transparent;
+      image: url("../img/quotes/julia.jpg");
+      position: 720px bottom;
+      repeat: no-repeat;
+      size: contain;
+    };
+    border: none;
+  }
+
+  &.agent_shant {
+    background: url("../img/quotes/shant.png") no-repeat bottom center;
+
+    border: {
+      bottom: none;
+    };
+    color: #686868;
+    min-height: 400px;
+
+    padding: {
+      bottom: 40px;
+    };
+
+    .left {
+      h4 {
+        color: #333333;
+        line-height: 1.3636363636363638em;
+
+        font: {
+          family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+          weight: 600;
+          size: 1.5em;
+        };
+      }
+    }
+
+    .right {
+      blockquote {
+        color: #686868;
+        line-height: 1.72em;
+        padding: 0;
+
+        font: {
+          family: "Georgia",serif;
+          size: 1.125em;
+        };
+
+        border: {
+          left: none;
+        };
+
+        margin: {
+          bottom: 1em;
+          top: 2em;
+        };
+      }
+    }
+  }
+
+  .unstyled {
+    list-style: none;
+    margin: 0 0 12px 25px;
+    margin-left: 0;
+    padding: 0;
+
+    &.quote-info li {
+      color: #898989;
+      font-size: 12px;
+      line-height: 18px;
+
+      strong {
+        font: {
+          size: 14px;
+        };
+        color: #333;
+      }
+    }
+  }
+
+  blockquote {
+    border-left: none;
+    padding-left: 0px;
+    padding: 0 0 0 15px;
+    margin: 0 0 24px;
+
+    border: {
+      left: 5px solid #eeeeee;
+    };
+
+    p {
+      font: {
+        size: 20px;
+        weight: 300;
+      };
+    }
+
+    &.quote-lg {
+      padding-left: 0;
+      border-left: none;
+      color: #333;
+
+      p {
+        font: {
+          family: "Georgia";
+          size: 32px;
+        };
+        line-height: 44px;
+        position: relative;
+
+        &:before {
+          content: '"';
+          top: 36px;
+          left: -36px;
+        }
+
+        &:before, &:after {
+          position: absolute;
+
+          font: {
+            size: 64px;
+            family: Georgia, serif;
+          };
+          color: #ccc;
+          line-height: 0;
+        }
+
+        &:after {
+          content: '"';
+          bottom: 9px;
+          margin-left: 5px;
+        }
+
+        &:before, &:after {
+          position: absolute;
+
+          font: {
+            size: 64px;
+            family: Georgia, serif;
+          };
+          color: #ccc;
+          line-height: 0;
+        }
+      }
+    }
+  }
+}
