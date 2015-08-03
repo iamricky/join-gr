@@ -1,0 +1,350 @@
+.success_stories {
+  .et_pb_row {
+    h2 {
+      @extend %headline;
+    }
+
+    .et_pb_main_blurb_image {
+      width: 193px;
+
+      img {
+        margin-right: 1em;
+      }
+    }
+  }
+
+  .et_pb_blurb_container {
+    .storyDetails {
+      h4 {
+        color: #d81e05 !important;
+        line-height: 1em;
+        margin: 0 !important;
+
+        font: {
+          size: 1.125em;
+          family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+          weight: 600;
+        };
+      }
+
+      ul {
+        margin: 0 0 12px 25px;
+        padding: 0 !important;
+
+        margin: {
+          top: 1em;
+          left: 0;
+        };
+
+        li {
+          color: #333333 !important;
+          line-height: 26px;
+          list-style: none !important;
+          list-style-type: none !important;
+          padding: 0 !important;
+
+          margin: {
+            left: 0;
+          };
+        }
+      }
+
+      blockquote {
+        margin: 0;
+        text-indent: 0;
+
+        border: {
+          left: none;
+        };
+        line-height: 1.3333333333333333em;
+
+        font: {
+          family: "Georgia",serif;
+          size: 1.125em;
+        };
+
+        padding: {
+          left: 0;
+        };
+      }
+
+      small {
+        color: #686868;
+        line-height: 1.2857142857142858em;
+
+        font: {
+          size: 0.875em;
+        };
+      }
+
+      address {
+        line-height: 1.2857142857142858em;
+        display: block;
+
+        margin: {
+          bottom: 0;
+        };
+
+        font: {
+          style: normal;
+        };
+      }
+    }
+  }
+}
+
+.et_pb_slider {
+  color: #f2adb1;
+  min-height: 20em;
+
+  background: {
+    color: #d81e05;
+  };
+
+  .et_pb_slide {
+    padding: 0;
+  }
+
+  .et_pb_container {
+    width: 90% !important;
+  }
+
+  .et_pb_slide_description {
+    padding: 16% 0% 24%;
+    text-shadow: none !important;
+
+    .et_pb_slide_content {
+      margin: -66px 0 0;
+    }
+
+    .left {
+      float: left;
+      text-align: left;
+      width: 66%;
+
+      padding: {
+        right: 8%;
+      };
+    }
+
+    .right {
+      float: left;
+      width: 34%;
+
+      h1 {
+        color: #ffffff;
+        word-spacing: -0.16666666666666666em;
+
+        font: {
+          family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+          size: 8em;
+          weight: 900;
+        };
+
+        small {
+          color: #fff;
+          vertical-align: super;
+
+          font: {
+            weight: bold;
+            size: 28px;
+          };
+        }
+      }
+
+      p {
+        line-height: 1.25em;
+
+        font: {
+          family: "Gerogia",serif;
+          size: 1.5em;
+        };
+      }
+    }
+
+    margin: {
+      left: 0;
+      right: 0;
+    };
+
+    h2 {
+      color: #ffffff;
+      margin: 0 !important;
+      text-align: left;
+      @extend %headline;
+    }
+
+    p {
+      color: #f2adb1;
+      line-height: 1.5em;
+      margin: 0 0 12px;
+    }
+  }
+}
+
+.in_the_news {
+  padding: {
+    bottom: 0;
+  };
+
+  h2 {
+    @extend %headline;
+  }
+
+  .coffee_cup {
+    float: right;
+
+    margin: {
+      top: -96px;
+      right: 12px;
+    };
+  }
+
+  .et_pb_blurb {
+    border: thin solid #999999;
+    text-align: center;
+
+    .et_pb_blurb_content {
+      max-width: 78%;
+    }
+
+    h4 {
+      color: #333333;
+
+      font: {
+        family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+        size: 1.125em;
+        weight: 600;
+      };
+
+      margin: {
+        top: 2.78em;
+        bottom: 1.5em;
+      };
+    }
+
+    blockquote {
+      color: #898989;
+      line-height: 1.2em;
+      padding: 0 0 72px;
+      margin: 0;
+
+      border: {
+        left: none;
+      };
+
+      font: {
+        family: "Georgia",serif;
+        size: 1.875em;
+      };
+    }
+  }
+}
+
+.good_press {
+  h2 {
+    color: #333333;
+    clear: left;
+    line-height: 1em;
+    padding: 0;
+    text-align: center;
+
+    font: {
+      family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+      size: 1.5em;
+      weight: 600;
+    };
+  }
+
+  .et_pb_column {
+    .news_item {
+      min-height: 426px;
+      border: 1px solid #dbdada;
+      border-top: #d81e05 1px solid;
+      padding-bottom: 1em;
+      background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 5%, rgba(222, 222, 222, 0.15) 7%, rgba(188, 188, 188, 0.15) 9%, rgba(255, 255, 255, 0.15) 21%), linear-gradient(to bottom, #d81e05, #d81e05 16px, #ffffff 16px);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.19) 5%, rgba(222, 222, 222, 0.21) 7%, rgba(188, 188, 188, 0.23) 9%, rgba(255, 255, 255, 0.33) 21%), -webkit-linear-gradient(top, #d81e05 5%, #ffffff 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 5%, rgba(222, 222, 222, 0.15) 7%, rgba(188, 188, 188, 0.15) 9%, rgba(255, 255, 255, 0.15) 21%), linear-gradient(to bottom, #d81e05, #d81e05 16px, #ffffff 16px);
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .et_pb_main_blurb_image {
+      min-height: 72px;
+
+      margin: {
+        left: 32px;
+        top: 36px;
+      };
+
+      & > img {
+        background: none;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        display: inherit;
+        margin: 2em 1.5em;
+        padding: 0;
+      }
+    }
+
+    .et_pb_blurb_container {
+      color: #333333;
+      line-height: 1em;
+      margin: 2em 1.5em;
+      min-height: 6.33em;
+
+      font: {
+        family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+        style: normal;
+        weight: 600;
+        size: 1.2em;
+      };
+
+      p {
+        text-align: center;
+      }
+
+      h4 {
+        color: #333333;
+        line-height: 1em;
+        min-height: 6.33em;
+        margin: 2em 1.5em;
+
+        font: {
+          family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+          style: normal;
+          weight: 600;
+          size: 1.2em;
+        };
+      }
+
+      .text-left {
+        text-align: left;
+      }
+    }
+
+    button {
+      @extend %btn;
+      color: #686868;
+      margin: 0 auto;
+      width: 12em;
+
+      font: {
+        family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+        style: normal;
+        weight: 400;
+        size: 1em;
+      };
+
+      margin: {
+        bottom: 1.5em;
+      };
+
+      padding: {
+        bottom: .5em;
+        top: .5em;
+      };
+    }
+  }
+}

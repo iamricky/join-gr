@@ -1,0 +1,48 @@
+%headline {
+  color: #333333;
+  line-height: 1.143em;
+  margin: 1em 0em;
+  text-align: center;
+
+  font: {
+    family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    size: 2.625em;
+    weight: 300;
+  };
+}
+
+.industry_best {
+  h2 {
+    @extend %headline;
+  }
+
+  h4 {
+    font-size: 1.125em;
+    line-height: 1em;
+    margin-top: 1.55em;
+    color: #333333;
+    font-weight: 600;
+  }
+}
+
+.automated_custom_marketing {
+  text-align: center !important;
+
+  h2 {
+    @extend %headline;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-top: 1.55em;
+    color: #333333;
+    font-weight: 600;
+  }
+
+  img {
+    -webkit-box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
+    box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
+  }
+}
