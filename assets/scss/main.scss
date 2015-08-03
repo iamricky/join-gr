@@ -1,8 +1,19 @@
 @import "partials/imports";
 @import "partials/nav";
+@import "partials/subnav";
 @import "partials/footer";
 @import "partials/cover";
 @import "partials/quotes";
+
+@import "modules/styles";
+@import "modules/buttons";
+
+@import "pages/home";
+@import "pages/products-pricing";
+@import "pages/process-support";
+@import "pages/proven-results";
+@import "pages/seamless-transition";
+@import "pages/contact-us";
 
 body {
   background-color: #ffffff;
@@ -32,21 +43,3 @@ body {
     }
   }
 }
-
-.et_pb_section.photos {}
-
-#quote {
-  padding: 0 !important;
-
-  .row {
-    padding: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-}
-
-@import "modules/styles";
-@import "modules/buttons";
-
-@import "pages/home";
-@import "pages/products_pricing";
