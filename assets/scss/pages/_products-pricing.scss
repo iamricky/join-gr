@@ -1,0 +1,57 @@
+.exclusive_programs {
+  @extend %left-align-headline;
+
+  padding: {
+    bottom: 0 !important;
+  };
+
+  h4 {
+    color: #d81e05;
+    border-bottom: thin solid #999999;
+    line-height: 1.3636363636363638em;
+
+    font: {
+      size: 1.125em;
+      weight: 400;
+    };
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding-left: 1em;
+      text-indent: -0.7em;
+      color: #555555;
+      line-height: 2em;
+      font-size: 0.875em;
+      &:before {}
+    }
+  }
+}
+
+.unmatched_pricing {
+  @extend %left-align-headline;
+  padding: 0 !important;
+
+  a {
+    @extend %btn;
+    @extend %gray-btn;
+    @extend %round-btn;
+  }
+
+  .et_pb_row {
+    &:first-child {
+      border: {
+        top: 1px solid #999999;
+      };
+      padding: 40px 0em 0;
+    }
+
+    &:last-child {
+      padding: 0 0em 40px;
+    }
+  }
+}
