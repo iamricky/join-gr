@@ -1,0 +1,155 @@
+#page_nav_top {
+  padding: 0;
+
+  background: {
+    color: #d81e05;
+  };
+
+  border: {
+    bottom: 5px solid #7b1103;
+  };
+
+  .et_pb_row {
+    padding: 0;
+  }
+
+  .et_pb_column_1_3 {
+    width: 33%;
+  }
+
+  .et_pb_column {
+    line-height: 1.125em;
+    text-shadow: none;
+    margin: 0;
+    min-height: 120px;
+    padding: 16px 12px;
+
+    border: {
+      right: thin #f34730 solid;
+      left: 1px solid #d81e05;
+    };
+
+    a {
+      color: white !important;
+    }
+
+    &:hover {
+      background-image: -moz-linear-gradient(90deg, #c41700 0%, #d11a02 100%);
+      background-image: -webkit-linear-gradient(90deg, #c41700 0%, #d11a02 100%);
+      background-image: -ms-linear-gradient(90deg, #c41700 0%, #d11a02 100%);
+    }
+  }
+
+  .et_pb_main_blurb_image {
+    height: 79px;
+    width: 79px;
+
+    a {
+      & > img {
+        background: {
+          color: transparent;
+        };
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
+  }
+
+  .et_pb_blurb_container {
+    h4 {
+      color: #ffffff !important;
+      line-height: 1em;
+      margin: 0px;
+      white-space: nowrap;
+
+      font: {
+        family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+        size: 1.125em;
+        weight: 600;
+      };
+    }
+
+    p {
+      color: #f4978b;
+
+      font: {
+        size: 0.875em;
+      };
+    }
+  }
+}
+
+#page_nav_bottom {
+  %link-style {
+    @extend %btn;
+    text-decoration: none;
+  }
+
+  padding: {
+    bottom: 24px;
+  };
+
+  .et_pb_row {
+    padding: 2em 6%;
+
+    border: {
+      top: thin solid #999999;
+    };
+
+    .et_pb_column {
+      text-align: center;
+    }
+  }
+
+  .prev {
+    margin: 0;
+    min-width: 29.666%;
+
+    a {
+      @extend %gray-btn;
+      @extend %link-style;
+      float: right;
+      text-align: left !important;
+
+      &:before {
+        @extend %font-awesome-icon;
+        font-size: 1.06em !important;
+        line-height: 0.06em;
+        vertical-align: 0%;
+        content: "\f137";
+      }
+    }
+  }
+
+  .next {
+    margin: 0;
+    min-width: 29.666%;
+
+    a {
+      @extend %gray-btn;
+      @extend %link-style;
+      float: left;
+      text-align: right !important;
+
+      &:after {
+        @extend %font-awesome-icon;
+        font-size: 1.06em !important;
+        line-height: 0.06em;
+        vertical-align: 0%;
+        content: "\f138";
+      }
+    }
+  }
+
+  .contact {
+    margin: 0 5.5%;
+
+    a {
+      @extend %green-btn;
+      @extend %link-style;
+    }
+  }
+}
