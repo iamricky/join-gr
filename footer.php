@@ -47,7 +47,7 @@ if ( ! is_page_template( "page-template-blank.php" ) ) : ?>
 
 				<div id="footer-bottom">
 					<div class="container clearfix">
-						<div id="copyright">Copyright &copy; 2000-2013 Guaranteed Rate. All rights reserved.</div>
+						<div id="copyright">Copyright &copy; 2000-2015 Guaranteed Rate. All rights reserved.</div>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
