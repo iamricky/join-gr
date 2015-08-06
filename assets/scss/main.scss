@@ -14,6 +14,7 @@
 @import "pages/proven-results";
 @import "pages/seamless-transition";
 @import "pages/contact-us";
+@import "pages/core-values";
 
 body {
   background-color: #ffffff;
@@ -23,8 +24,18 @@ body {
   margin: 0;
 }
 
+#main-content {
+  min-height: 300px;
+}
+
 .banner {
   background-color: #d81e05 !important;
+}
+
+#our_lo_produce_more {
+  h2 {
+    @extend %headline;
+  }
 }
 
 // 4x1 Photo Row
