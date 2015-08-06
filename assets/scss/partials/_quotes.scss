@@ -38,75 +38,56 @@
     }
   }
 
-  &.agent_dean {
+  &.agent_joe {
     background: {
       color: transparent;
-      image: url("../img/quotes/dean.jpg");
-      position: bottom left;
+      image: url("../img/quotes/joe.png");
+      position: right bottom;
       repeat: no-repeat;
       size: contain;
     };
-    border: none;
+  }
+
+  &.agent_john {
+    background: {
+      color: #f0f0f0;
+      image: url("../img/quotes/john.png");
+      position: right bottom;
+      repeat: no-repeat;
+      size: contain;
+    };
   }
 
   &.agent_julia {
     background: {
       color: transparent;
-      image: url("../img/quotes/julia.jpg");
-      position: 720px bottom;
+      image: url("../img/quotes/julia_b.png");
+      position: right bottom;
       repeat: no-repeat;
       size: contain;
     };
-    border: none;
   }
 
-  &.agent_shant {
-    background: url("../img/quotes/shant.png") no-repeat bottom center;
-
-    border: {
-      bottom: none;
+  &.agent_larry {
+    background: {
+      color: transparent;
+      image: url("../img/quotes/larry.png");
+      position: bottom left;
+      repeat: no-repeat;
+      size: contain;
     };
-    color: #686868;
-    min-height: 400px;
+  }
 
-    padding: {
-      bottom: 40px;
+  &.agent_shant_b {
+    min-height: 540px;
+
+    background: {
+      color: #f0f0f0;
+      image: url("../img/quotes/shant_b.png");
+      position: left bottom;
+      repeat: no-repeat;
+      size: contain;
     };
-
-    .left {
-      h4 {
-        color: #333333;
-        line-height: 1.3636363636363638em;
-
-        font: {
-          family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-          weight: 600;
-          size: 1.5em;
-        };
-      }
-    }
-
-    .right {
-      blockquote {
-        color: #686868;
-        line-height: 1.72em;
-        padding: 0;
-
-        font: {
-          family: "Georgia",serif;
-          size: 1.125em;
-        };
-
-        border: {
-          left: none;
-        };
-
-        margin: {
-          bottom: 1em;
-          top: 2em;
-        };
-      }
-    }
   }
 
   .unstyled {
