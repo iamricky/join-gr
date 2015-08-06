@@ -1,9 +1,29 @@
 .success_stories {
-  .et_pb_row {
-    h2 {
-      @extend %headline;
+  .headline {
+    &.et_pb_row {
+      padding: 0 !important;
+
+      margin: {
+        top: 24px;
+        bottom: 36px;
+      };
     }
 
+    .et_pb_text {
+      margin: 0 !important;
+
+      h2 {
+        @extend %headline;
+        margin: 0 !important;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .et_pb_row {
     .et_pb_main_blurb_image {
       width: 193px;
 
