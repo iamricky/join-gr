@@ -3,8 +3,8 @@
 		<?php
 
 
-			$omit_pages = array( "Home Page", "Contact Us", "Privacy Policy", "Terms & Conditions" );
-			$pagelist = get_pages( "sort_column=menu_order&sort_order=asc" );
+			$omit_pages = array( "Home Page", "Contact Us", "Privacy Policy", "Terms & Conditions", "Core Values", "Disclaimer" );
+			$pagelist = get_pages( "sort_column=post_date&sort_order=asc" );
 			$pages = array();
 			foreach ( $pagelist as $page ) {
 				if ( !in_array( $page->post_title, $omit_pages ) ) {

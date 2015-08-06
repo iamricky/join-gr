@@ -67,7 +67,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 <?php endif; ?>
 
-<?php $include_pages = array( "products-pricing", "process-support", "proven-results", "seamless-transition" );
+<?php $chosen_pages = array( "products-pricing", "process-support", "proven-results", "seamless-transition" );
 
 if(is_page( $chosen_pages )): get_template_part("partials/page", "nav-bottom"); endif; ?>
 </div> <!-- #main-content -->
