@@ -22,11 +22,10 @@
     margin: 0;
 
     li {
-      padding-left: 1em;
-      text-indent: -0.7em;
       color: #555555;
-      line-height: 2em;
       font-size: 0.875em;
+      padding-left: 1em;
+      line-height: 2em;
       &:before {}
     }
   }
