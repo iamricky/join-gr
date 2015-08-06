@@ -11,7 +11,29 @@
   };
 }
 
+#process_support.cover {
+  background: {
+    position: center -162px;
+  };
+
+  p {
+    width: 72%;
+
+    a {
+      display: initial;
+
+      margin: {
+        top: 20px;
+      };
+    }
+  }
+}
+
 .industry_best {
+  background: {
+    color: white !important;
+  };
+
   h2 {
     @extend %headline;
   }
@@ -22,6 +44,19 @@
     margin-top: 1.55em;
     color: #333333;
     font-weight: 600;
+  }
+}
+
+.pod_flow {
+  h4 {
+    color: #333333;
+    line-height: 1.3636363636363638em;
+
+    font: {
+      family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+      weight: 600;
+      size: 1.5em;
+    };
   }
 }
 
@@ -44,5 +79,37 @@
     -webkit-box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
     -moz-box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
     box-shadow: -0.8em 1em 2em rgba(0, 0, 0, 0.2);
+  }
+}
+
+#sales_coaching {
+  &.et_pb_section_9 {
+    background: {
+      color: white !important;
+    };
+  }
+
+  .headline {
+    &.et_pb_row {
+      padding: 0 !important;
+
+      margin: {
+        top: 24px;
+        bottom: 36px;
+      };
+    }
+
+    .et_pb_text {
+      margin: 0 !important;
+
+      h2 {
+        @extend %headline;
+        margin: 0 !important;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
   }
 }
