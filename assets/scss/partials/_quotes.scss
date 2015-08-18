@@ -38,10 +38,20 @@
     }
   }
 
-  &.agent_joe {
+  // &.agent_joe {
+  //   background: {
+  //     color: transparent;
+  //     image: url("../img/quotes/joe.png");
+  //     position: right bottom;
+  //     repeat: no-repeat;
+  //     size: contain;
+  //   };
+  // }
+
+  &.agent_sam {
     background: {
       color: transparent;
-      image: url("../img/quotes/joe.png");
+      image: url("../img/quotes/sam.png");
       position: right bottom;
       repeat: no-repeat;
       size: contain;
